@@ -1,0 +1,81 @@
+.conteiner {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.bigbox {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.bigbox-info {
+    width: 300px;
+    
+    margin-right: 50px;
+}
+
+.bigbox-info > h1 {
+    font-size: 16px;
+    color: brown;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.bigbox-info > h3 {
+    font-size: 16px;
+    margin: 10px;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+.bigbox-info > p {
+    font-size: 16px;
+    margin: 10px;
+    color: blue;
+    text-align: center;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+    
+}
+
+.content-card {
+    width: 280px;
+    margin-bottom: 20px;
+    
+    
+   
+   
+}
+
+.content-card > h1{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.content-card > img {
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
